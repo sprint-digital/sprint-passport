@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Notifications;
+namespace Sprintdigital\SprintPassport\Notifications;
 
 use Illuminate\Support\Carbon;
 

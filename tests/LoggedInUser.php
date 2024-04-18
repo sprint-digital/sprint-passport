@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;

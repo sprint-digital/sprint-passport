@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Support\Facades\Auth;

@@ -1,12 +1,12 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Unit\Factories;
+namespace Sprintdigital\SprintPassport\Tests\Unit\Factories;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
-use SprintDigital\SprintPassport\Contracts\AuthModelFactory;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Contracts\AuthModelFactory;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 
 class AuthModelFactoryTest extends TestCase
 {

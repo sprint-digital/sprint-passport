@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
 use Illuminate\Support\Facades\Event;
-use SprintDigital\SprintPassport\Events\PasswordUpdated;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Events\PasswordUpdated;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 use Laravel\Passport\Passport;
 
 class UpdatePasswordTest extends TestCase

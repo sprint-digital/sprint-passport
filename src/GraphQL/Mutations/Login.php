@@ -1,10 +1,10 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use SprintDigital\SprintPassport\Events\UserLoggedIn;
+use Sprintdigital\SprintPassport\Events\UserLoggedIn;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;
 
 class Login extends BaseAuthResolver

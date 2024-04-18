@@ -1,13 +1,13 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Providers;
+namespace Sprintdigital\SprintPassport\Providers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
-use SprintDigital\SprintPassport\Contracts\AuthModelFactory as AuthModelFactoryContract;
-use SprintDigital\SprintPassport\Factories\AuthModelFactory;
-use SprintDigital\SprintPassport\OAuthGrants\LoggedInGrant;
-use SprintDigital\SprintPassport\OAuthGrants\SocialGrant;
+use Sprintdigital\SprintPassport\Contracts\AuthModelFactory as AuthModelFactoryContract;
+use Sprintdigital\SprintPassport\Factories\AuthModelFactory;
+use Sprintdigital\SprintPassport\OAuthGrants\LoggedInGrant;
+use Sprintdigital\SprintPassport\OAuthGrants\SocialGrant;
 use Laravel\Passport\Bridge\RefreshTokenRepository;
 use Laravel\Passport\Bridge\UserRepository;
 use Laravel\Passport\Passport;

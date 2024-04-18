@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Contracts;
+namespace Sprintdigital\SprintPassport\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

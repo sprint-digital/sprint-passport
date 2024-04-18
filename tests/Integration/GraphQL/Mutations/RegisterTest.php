@@ -1,13 +1,13 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Notification;
-use SprintDigital\SprintPassport\Notifications\VerifyEmail;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\UserVerifyEmail;
+use Sprintdigital\SprintPassport\Notifications\VerifyEmail;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\UserVerifyEmail;
 
 class RegisterTest extends TestCase
 {

@@ -3,7 +3,7 @@
 use Faker\Generator as Faker;
 use Illuminate\Database\Eloquent\Factory;
 use Illuminate\Support\Facades\Hash;
-use SprintDigital\SprintPassport\Tests\Admin;
+use Sprintdigital\SprintPassport\Tests\Admin;
 
 app(Factory::class)->define(Admin::class, function (Faker $faker) {
     static $password;

@@ -1,9 +1,9 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Models;
+namespace Sprintdigital\SprintPassport\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use SprintDigital\SprintPassport\Contracts\AuthModelFactory;
+use Sprintdigital\SprintPassport\Contracts\AuthModelFactory;
 
 class SocialProvider extends Model
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Support\Facades\Password;
-use SprintDigital\SprintPassport\Events\ForgotPasswordRequested;
-use SprintDigital\SprintPassport\Exceptions\EmailNotSentException;
+use Sprintdigital\SprintPassport\Events\ForgotPasswordRequested;
+use Sprintdigital\SprintPassport\Exceptions\EmailNotSentException;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;
 
 class ForgotPassword

@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 class Admin extends User
 {

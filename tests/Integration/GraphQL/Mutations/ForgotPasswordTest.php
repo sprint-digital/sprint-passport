@@ -1,14 +1,14 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
-use SprintDigital\SprintPassport\Events\ForgotPasswordRequested;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Events\ForgotPasswordRequested;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 
 class ForgotPasswordTest extends TestCase
 {

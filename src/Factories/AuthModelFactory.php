@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Factories;
+namespace Sprintdigital\SprintPassport\Factories;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Database\Eloquent\Model;
 
-class AuthModelFactory implements \SprintDigital\SprintPassport\Contracts\AuthModelFactory
+class AuthModelFactory implements \Sprintdigital\SprintPassport\Contracts\AuthModelFactory
 {
     /**
      * @var Repository

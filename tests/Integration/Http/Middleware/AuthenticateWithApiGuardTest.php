@@ -1,9 +1,9 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\Http\Middleware;
+namespace Sprintdigital\SprintPassport\Tests\Integration\Http\Middleware;
 
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 
 class AuthenticateWithApiGuardTest extends TestCase
 {

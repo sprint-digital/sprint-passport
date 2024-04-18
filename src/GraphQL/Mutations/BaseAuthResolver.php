@@ -1,10 +1,10 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use Illuminate\Http\Request;
-use SprintDigital\SprintPassport\Contracts\AuthModelFactory;
-use SprintDigital\SprintPassport\Exceptions\AuthenticationException;
+use Sprintdigital\SprintPassport\Contracts\AuthModelFactory;
+use Sprintdigital\SprintPassport\Exceptions\AuthenticationException;
 use Laravel\Passport\Client;
 
 /**

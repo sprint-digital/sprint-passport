@@ -1,13 +1,13 @@
 <?php
 
-namespace SprintDigital\SprintPassport;
+namespace Sprintdigital\SprintPassport;
 
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
-use SprintDigital\SprintPassport\Models\SocialProvider;
+use Sprintdigital\SprintPassport\Models\SocialProvider;
 use Laravel\Socialite\Facades\Socialite;
 
 /**

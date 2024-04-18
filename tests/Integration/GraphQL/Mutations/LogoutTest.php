@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
 use Illuminate\Support\Facades\Event;
-use SprintDigital\SprintPassport\Events\UserLoggedOut;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Events\UserLoggedOut;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 
 class LogoutTest extends TestCase
 {

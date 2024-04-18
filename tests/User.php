@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use SprintDigital\SprintPassport\HasLoggedInTokens;
-use SprintDigital\SprintPassport\HasSocialLogin;
+use Sprintdigital\SprintPassport\HasLoggedInTokens;
+use Sprintdigital\SprintPassport\HasSocialLogin;
 use Laravel\Passport\HasApiTokens;
 
 /**

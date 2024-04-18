@@ -87,13 +87,13 @@ input UpdatePassword {
 }
 
 extend type Mutation {
-    login(input: LoginInput @spread): AuthPayload! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\Login@resolve")
-    refreshToken(input: RefreshTokenInput @spread): RefreshTokenPayload! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\RefreshToken@resolve")
-    logout: LogoutResponse! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\Logout@resolve")
-    forgotPassword(input: ForgotPasswordInput! @spread): ForgotPasswordResponse! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\ForgotPassword@resolve")
-    updateForgottenPassword(input: NewPasswordWithCodeInput @spread): ForgotPasswordResponse! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\ResetPassword@resolve")
-    register(input: RegisterInput @spread): RegisterResponse! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\Register@resolve")
-    socialLogin(input: SocialLoginInput! @spread): AuthPayload! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\SocialLogin@resolve")
-    verifyEmail(input: VerifyEmailInput! @spread): AuthPayload! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\VerifyEmail@resolve")
-    updatePassword(input: UpdatePassword! @spread): UpdatePasswordResponse! @field(resolver: "SprintDigital\\SprintPassport\\GraphQL\\Mutations\\UpdatePassword@resolve") @guard(with: ["api"])
+    login(input: LoginInput @spread): AuthPayload! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\Login@resolve")
+    refreshToken(input: RefreshTokenInput @spread): RefreshTokenPayload! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\RefreshToken@resolve")
+    logout: LogoutResponse! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\Logout@resolve")
+    forgotPassword(input: ForgotPasswordInput! @spread): ForgotPasswordResponse! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\ForgotPassword@resolve")
+    updateForgottenPassword(input: NewPasswordWithCodeInput @spread): ForgotPasswordResponse! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\ResetPassword@resolve")
+    register(input: RegisterInput @spread): RegisterResponse! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\Register@resolve")
+    socialLogin(input: SocialLoginInput! @spread): AuthPayload! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\SocialLogin@resolve")
+    verifyEmail(input: VerifyEmailInput! @spread): AuthPayload! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\VerifyEmail@resolve")
+    updatePassword(input: UpdatePassword! @spread): UpdatePasswordResponse! @field(resolver: "Sprintdigital\\SprintPassport\\GraphQL\\Mutations\\UpdatePassword@resolve") @guard(with: ["api"])
 }

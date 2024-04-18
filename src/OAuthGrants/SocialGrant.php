@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\OAuthGrants;
+namespace Sprintdigital\SprintPassport\OAuthGrants;
 
 use DateInterval;
 use Illuminate\Http\Request;

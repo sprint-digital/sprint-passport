@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Exceptions;
+namespace Sprintdigital\SprintPassport\Exceptions;
 
 use Exception;
 use GraphQL\Error\ClientAware;

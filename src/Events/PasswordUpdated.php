@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Events;
+namespace Sprintdigital\SprintPassport\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

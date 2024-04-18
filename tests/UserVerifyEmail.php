@@ -1,12 +1,12 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use SprintDigital\SprintPassport\HasLoggedInTokens;
-use SprintDigital\SprintPassport\MustVerifyEmailGraphQL;
+use Sprintdigital\SprintPassport\HasLoggedInTokens;
+use Sprintdigital\SprintPassport\MustVerifyEmailGraphQL;
 use Laravel\Passport\HasApiTokens;
 
 class UserVerifyEmail extends Authenticatable implements MustVerifyEmail

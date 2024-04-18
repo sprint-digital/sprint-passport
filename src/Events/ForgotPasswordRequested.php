@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Events;
+namespace Sprintdigital\SprintPassport\Events;
 
 /**
  * Class ForgotPasswordRequested.

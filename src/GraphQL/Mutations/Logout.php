@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Support\Facades\Auth;
-use SprintDigital\SprintPassport\Events\UserLoggedOut;
-use SprintDigital\SprintPassport\Exceptions\AuthenticationException;
+use Sprintdigital\SprintPassport\Events\UserLoggedOut;
+use Sprintdigital\SprintPassport\Exceptions\AuthenticationException;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;
 
 class Logout extends BaseAuthResolver

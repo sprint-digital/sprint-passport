@@ -1,12 +1,12 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
 use Illuminate\Support\Facades\Event;
-use SprintDigital\SprintPassport\Events\UserLoggedIn;
-use SprintDigital\SprintPassport\Tests\Admin;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Events\UserLoggedIn;
+use Sprintdigital\SprintPassport\Tests\Admin;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 use Nuwave\Lighthouse\Testing\MakesGraphQLRequests;
 
 class LoginTest extends TestCase

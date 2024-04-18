@@ -32,12 +32,12 @@
   },
   "autoload": {
     "psr-4": {
-      "SprintDigital\\SprintPassport\\": "src/"
+      "Sprintdigital\\SprintPassport\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SprintDigital\\SprintPassport\\Tests\\": "tests/"
+      "Sprintdigital\\SprintPassport\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
@@ -45,7 +45,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SprintDigital\\SprintPassport\\Providers\\SprintPassportServiceProvider"
+        "Sprintdigital\\SprintPassport\\Providers\\SprintPassportServiceProvider"
       ]
     }
   },

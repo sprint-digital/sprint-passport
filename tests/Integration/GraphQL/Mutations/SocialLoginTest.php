@@ -1,10 +1,10 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\Tests\Integration\GraphQL\Mutations;
 
-use SprintDigital\SprintPassport\Models\SocialProvider;
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Models\SocialProvider;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 use Laravel\Socialite\Facades\Socialite;
 use Mockery;
 use Nuwave\Lighthouse\Testing\MakesGraphQLRequests;

@@ -1,11 +1,11 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
 use Illuminate\Support\Facades\Hash;
-use SprintDigital\SprintPassport\Events\PasswordUpdated;
-use SprintDigital\SprintPassport\Exceptions\ValidationException;
+use Sprintdigital\SprintPassport\Events\PasswordUpdated;
+use Sprintdigital\SprintPassport\Exceptions\ValidationException;
 use Nuwave\Lighthouse\Support\Contracts\GraphQLContext;
 
 /**

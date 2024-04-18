@@ -1,9 +1,9 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use SprintDigital\SprintPassport\Providers\SprintPassportServiceProvider;
+use Sprintdigital\SprintPassport\Providers\SprintPassportServiceProvider;
 use Laravel\Passport\ClientRepository;
 use Laravel\Passport\PassportServiceProvider;
 use Laravel\Socialite\SocialiteServiceProvider;

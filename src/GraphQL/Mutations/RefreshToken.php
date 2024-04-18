@@ -1,9 +1,9 @@
 <?php
 
-namespace SprintDigital\SprintPassport\GraphQL\Mutations;
+namespace Sprintdigital\SprintPassport\GraphQL\Mutations;
 
 use GraphQL\Type\Definition\ResolveInfo;
-use SprintDigital\SprintPassport\Events\UserRefreshedToken;
+use Sprintdigital\SprintPassport\Events\UserRefreshedToken;
 use Lcobucci\JWT\Configuration;
 use Lcobucci\JWT\Signer\Blake2b;
 use Lcobucci\JWT\Signer\Key\InMemory;

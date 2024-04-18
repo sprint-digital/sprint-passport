@@ -1,9 +1,9 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests\Unit;
+namespace Sprintdigital\SprintPassport\Tests\Unit;
 
-use SprintDigital\SprintPassport\Tests\TestCase;
-use SprintDigital\SprintPassport\Tests\User;
+use Sprintdigital\SprintPassport\Tests\TestCase;
+use Sprintdigital\SprintPassport\Tests\User;
 use Laravel\Passport\Passport;
 
 class HasLoggedInTokensTest extends TestCase

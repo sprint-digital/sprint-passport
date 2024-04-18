@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Tests;
+namespace Sprintdigital\SprintPassport\Tests;
 
 use Laravel\Passport\Passport;
 
@@ -15,7 +15,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         Passport::loadKeysFrom(__DIR__.'/storage/');
         config()->set('lighthouse.route.middleware', [
             \Nuwave\Lighthouse\Http\Middleware\AcceptJson::class,
-            \SprintDigital\SprintPassport\Http\Middleware\AuthenticateWithApiGuard::class,
+            \Sprintdigital\SprintPassport\Http\Middleware\AuthenticateWithApiGuard::class,
         ]);
     }
 }

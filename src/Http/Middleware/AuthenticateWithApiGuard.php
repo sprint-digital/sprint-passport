@@ -1,6 +1,6 @@
 <?php
 
-namespace SprintDigital\SprintPassport\Http\Middleware;
+namespace Sprintdigital\SprintPassport\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Factory as Auth;

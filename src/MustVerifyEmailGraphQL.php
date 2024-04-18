@@ -1,8 +1,8 @@
 <?php
 
-namespace SprintDigital\SprintPassport;
+namespace Sprintdigital\SprintPassport;
 
-use SprintDigital\SprintPassport\Notifications\VerifyEmail;
+use Sprintdigital\SprintPassport\Notifications\VerifyEmail;
 
 trait MustVerifyEmailGraphQL
 {
