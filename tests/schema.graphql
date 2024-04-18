@@ -1,0 +1,14 @@
+type User @model(class: "SprintDigital\\SprintPassport\\Tests\\User"){
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Query {
+    me: User @auth(guard: "api")
+    loggedInUserViaGuardForTest: User @field(resolver: "SprintDigital\\SprintPassport\\Tests\\LoggedInUser@resolve") @guard(with: ["api"])
+}
+
+type Mutation {
+    createUser: User @create(model: "SprintDigital\\SprintPassport\\Tests\\User")
+}
