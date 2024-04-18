@@ -17,7 +17,7 @@ class RefreshTokenTest extends TestCase
         $response = $this->postGraphQL([
             'query' => 'mutation {
                 login(input: {
-                    username: "jose@example.com",
+                    username: "sprint@digital.com",
                     password: "123456789qq"
                 }) {
                     access_token

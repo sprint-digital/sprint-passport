@@ -17,8 +17,8 @@ class VerifyEmailTest extends TestCase
         Event::fake([\Illuminate\Auth\Events\Verified::class]);
         $this->createClient();
         $user = UserVerifyEmail::create([
-            'name'     => 'Jose Fonseca',
-            'email'    => 'jose@example.com',
+            'name'     => 'Sprint Digital',
+            'email'    => 'sprint@digital.com',
             'password' => bcrypt('123456789'),
         ]);
         $payload = base64_encode(json_encode([
@@ -63,8 +63,8 @@ class VerifyEmailTest extends TestCase
         Event::fake([\Illuminate\Auth\Events\Verified::class]);
         $this->createClient();
         $user = UserVerifyEmail::create([
-            'name'     => 'Jose Fonseca',
-            'email'    => 'jose@example.com',
+            'name'     => 'Sprint Digital',
+            'email'    => 'sprint@digital.com',
             'password' => bcrypt('123456789'),
         ]);
         $payload = base64_encode(json_encode([

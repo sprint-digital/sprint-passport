@@ -19,14 +19,14 @@ class LoginTest extends TestCase
             'default'                    => [
                 User::class,
                 [
-                    'username' => 'jose@example.com',
+                    'username' => 'sprint@digital.com',
                     'password' => '123456789qq',
                 ],
             ],
             'findForPassport' => [
                 Admin::class,
                 [
-                    'username' => 'Jose Fonseca',
+                    'username' => 'Sprint Digital',
                     'password' => '123456789qq',
                 ],
                 true,

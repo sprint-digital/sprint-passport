@@ -19,7 +19,7 @@ class RegisterTest extends TestCase
             'query' => 'mutation {
                 register(input: {
                     name: "My Name",
-                    email: "jose@example.com",
+                    email: "sprint@digital.com",
                     password: "123456789qq",
                     password_confirmation: "123456789qq"
                 }) {
@@ -59,7 +59,7 @@ class RegisterTest extends TestCase
             'query' => 'mutation {
                 register(input: {
                     name: "My Name",
-                    email: "jose@example.com",
+                    email: "sprint@digital.com",
                     password: "123456789qq",
                     password_confirmation: "123456789qq"
                 }) {

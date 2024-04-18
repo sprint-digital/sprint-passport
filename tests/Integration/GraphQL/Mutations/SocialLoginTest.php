@@ -33,9 +33,9 @@ class SocialLoginTest extends TestCase
             ->shouldReceive('getId')
             ->andReturn('fakeId')
             ->shouldReceive('getName')
-            ->andReturn('Jose Fonseca')
+            ->andReturn('Sprint Digital')
             ->shouldReceive('getEmail')
-            ->andReturn('jose@example.com');
+            ->andReturn('sprint@digital.com');
         Socialite::shouldReceive('driver->userFromToken')->andReturn($abstractUser);
     }
 
@@ -46,7 +46,7 @@ class SocialLoginTest extends TestCase
             ->shouldReceive('getId')
             ->andReturn('fakeId')
             ->shouldReceive('getName')
-            ->andReturn('Jose Fonseca')
+            ->andReturn('Sprint Digital')
             ->shouldReceive('getEmail')
             ->andReturn($user->email);
         Socialite::shouldReceive('driver->userFromToken')->andReturn($abstractUser);
@@ -110,8 +110,8 @@ class SocialLoginTest extends TestCase
         $this->assertArrayHasKey('access_token', $decodedResponse['data']['socialLogin']);
         $this->assertArrayHasKey('refresh_token', $decodedResponse['data']['socialLogin']);
         $this->assertDatabaseHas('users', [
-            'email' => 'jose@example.com',
-            'name' => 'Jose Fonseca',
+            'email' => 'sprint@digital.com',
+            'name' => 'Sprint Digital',
         ]);
         $createdUser = User::first();
         $this->assertDatabaseHas('social_providers', [

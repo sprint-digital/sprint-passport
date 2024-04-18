@@ -29,7 +29,7 @@ class AuthModelFactoryTest extends TestCase
      */
     public function canMakeAuthModel(): void
     {
-        $email = 'jose@example.com';
+        $email = 'sprint@digital.com';
         $model = $this->factory->make(['email' => $email]);
 
         self::assertInstanceOf(User::class, $model);
@@ -42,8 +42,8 @@ class AuthModelFactoryTest extends TestCase
     public function canCreateAuthModel(): void
     {
         $model = $this->factory->create([
-            'name'     => 'Jose Fonseca',
-            'email'    => 'jose@example.com',
+            'name'     => 'Sprint Digital',
+            'email'    => 'sprint@digital.com',
             'password' => Hash::make('123456789qq'),
         ]);
 
